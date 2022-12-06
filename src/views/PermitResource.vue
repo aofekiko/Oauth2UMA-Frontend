@@ -1,5 +1,7 @@
 <template>
     <div class="home">
+        Incomplete page :( <br><br>
+
         USER VIEW
         <br><br>
         This page is for demo purposes <br>
