@@ -32,10 +32,31 @@ const routes = [
     },
   },
   {
+    path: '/getresource',
+    name: 'getresource',
+    component: function () {
+      return import('../views/GetResource.vue')
+    },
+  },
+  {
+    path: '/createresource',
+    name: 'createresource',
+    component: function () {
+      return import('../views/CreateResource.vue')
+    },
+  },
+  {
     path: '/resources',
     name: 'resources',
     component: function () {
       return import('../views/Resources.vue')
+    },
+  },
+  {
+    path: '/permitresource',
+    name: 'permitresource',
+    component: function () {
+      return import('../views/PermitResource.vue')
     },
   }
 ]
